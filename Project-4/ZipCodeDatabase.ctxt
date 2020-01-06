@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ZipCodeDatabase()
+comment0.text=\r\n\ \ \ \ Constructor\ instantiates\ arrayList\r\n
+comment1.params=filename
+comment1.target=void\ readZipCodeData(java.lang.String)
+comment2.params=zip
+comment2.target=ZipCode\ findZipCode(int)
+comment2.text=\r\n\ \ \ \ Method\ that\ searches\ zipArray\ for\ a\ matching\ zipcode\r\n
+comment3.params=zip1\ zip2
+comment3.target=int\ distance(int,\ int)
+comment3.text=\r\n\ \ \ \ calculates\ distance\ between\ two\ zip\ codes\r\n\r\n\ \ \ \ @param\:\ two\ user-defined\ zip\ codes\r\n\ \ \ \ @return\:\ Integer\ equal\ to\ distance\ in\ miles\r\n
+comment4.params=pZip\ radius
+comment4.target=java.util.ArrayList\ withinRadius(int,\ int)
+comment4.text=\r\n\ \ \ \ uses\ distance\ method\ to\ determine\ what\ zipcodes\ are\ \r\n\ \ \ \ within\ a\ certain\ radius\r\n\r\n\ \ \ \ @param\:\ pZip\ -\ user-defined\ zipcode\r\n\ \ \ \ radius\ -\ maximum\ distance\ neighboring\ zip\ code\ can\ be\ \r\n\r\n
+comment5.params=pZip
+comment5.target=ZipCode\ findFurthest(int)
+comment5.text=\r\n\ Method\ finds\ zipcode\ farthest\ from\r\n\ user\ entered\r\n\ @param\:\ zip\ code\ to\ search\ from\r\n
+comment6.params=str
+comment6.target=java.util.ArrayList\ search(java.lang.String)
+comment6.text=\r\n\ Searches\ for\ cities\ that\ contain\ same\ characters\r\n\ as\ user\ entered\ string\r\n\ \r\n@param\ str\ user\ entered\ string\ \r\n
+comment7.params=
+comment7.target=int\ getCount()
+comment7.text=\r\n\ Returns\ number\ of\ items\ in\ array\r\n
+numComments=8
